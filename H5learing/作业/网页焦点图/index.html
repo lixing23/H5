@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>网页焦点图</title>
+        <style type="test/css">
+            b{
+                margin: 0;
+                padding: 1000;
+                border: 0;
+                list-style: none;
+            }
+            a{
+                float: left;
+                width: 25px;
+                height: 90px;
+                line-height: 90px;
+                background: #333;
+                opacity: 0.7;
+                border-radius: 4px;
+                text-align: center;
+                display: none;
+                cursor: pointer;
+               
+            }
+            .p11{
+                text-decoration: none;
+                font-size: 30px;
+                color: aqua;
+            }
+            div{
+                width: 580px;
+                height: 200px;
+                margin: 50px auto;
+                position: relative;
+            }
+            .left{
+                position: relative;
+                left: -12px;
+                top: 60px;
+            }
+            .right{
+                position: absolute;
+                right: -12px;
+                top: 60px;
+            }
+            div:hover a{
+                    display: block;
+            }
+            ul{
+                width: 110px;
+                height: 20px;
+                background: #41ccde;
+                opacity: 0.5;
+                border-radius: 8px;
+                position: absolute;
+                right: 30px;
+                bottom: 20px;
+                text-align: center;
+            }
+            li{
+                width: 5px;
+                height: 5px;
+                background: #ccc;
+                display: inline-block;
+            }
+            .max{
+                width: 12px;
+                background: #03bde4;
+                border-radius: 6px;
+            }
+
+        </style>
+    </head>
+    <body>
+         <div>
+            <img src="./image/bk.jpg" width="500px" alt="音乐">
+            <a href="#" class="left">1</a>
+            <a href="#" class="right">2</a>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+         </div>
+    </body>
+</html>
