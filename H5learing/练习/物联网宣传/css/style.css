@@ -1,0 +1,101 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    overflow: hidden;
+}
+body{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2,h5,h4{
+     margin-top: 0;
+     margin-bottom: 0.5rem;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+div{display: block;}
+@font-face{
+    font-family: 'Pinyon Script';
+    src: url(../fonts/PinyonScript-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+#mobile{
+    background-image: url(../images/section_mobile_bg.jpg);
+    text-align: center;
+}
+#mobile h2{
+    font-size: 6rem;
+    font-family: 'Pinyon Script';
+    font-weight: 600;
+    text-shadow: 5px 5px 0.3rem #62819d;
+    margin-top: 2rem;
+}
+#mobile h4{
+    font-size: 3rem;
+    font-family: 'Pinyon Script';
+    font-weight: 600;
+    text-shadow: 10px 10px 0.2rem #62819d;
+    margin-top: 2rem;
+}
+#mobile .description{
+    margin-top: 3rem;
+}
+#mobile .description > p{
+    font-size: 1.5rem;
+}
+.row{
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+}
+.row::before,row::after{
+    container: "";
+    display: table;
+}
+.row::after{clear: both;}
+#mobile .list{
+    text-align: center;
+    margin: 3rem 0 1.5rem;
+}
+#mobile .list li{
+    font-size: 3rem;
+    padding: 2rem;
+}
+#mobile .list h5{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.col-xs-6,.col-md-3{
+    position: relative;
+    min-height: 1px;
+    padding: 0.9375rem;
+    float: left;
+    box-sizing: border-box;
+}
+.col-xs-6{
+    width: 50%;
+}
+.col-md-3{
+    float: left;
+    width: 25%;
+}
+.cover-sectin{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.sectinon-inner{
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
