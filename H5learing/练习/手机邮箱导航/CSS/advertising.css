@@ -1,0 +1,115 @@
+/*第2单元 项目2-2  广告推广软文页面 */
+html,body {
+  width: 100%;
+  height: 100%;
+}
+html{
+  overflow: hidden;
+}
+body {
+  font-family: 'Microsoft Yahei';
+  color: #ffffff;
+  /*新增的，去body的默认边距*/
+  padding: 0;
+  margin: 0;
+}
+ h3, h4, h5{
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+div {
+    display: block;
+}
+@font-face {
+  font-family: 'Pinyon Script';
+  src: url("../fonts/PinyonScript-Regular.ttf") ;
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;/*把行元素转换为行内块元素*/
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;/*设置文本渲染引擎工作时如何优化显示文本， 默认值：auto*/
+  -webkit-font-smoothing: antialiased;
+}
+#mobile {
+  background-image: url("../images/section_mobile_bg.jpg");
+  text-align: center;
+}
+#mobile h3 {
+  font-size: 6rem;
+  font-family: 'Pinyon Script';
+  font-weight: 600;
+  /*设置文字阴影：向右5px 向下5px 模糊程度0.3rem 颜色为#62819d*/
+  text-shadow: 5px 5px 0.3rem #62819d;
+  margin-bottom: 2rem;
+}
+#mobile h4 {
+  font-size: 3rem;
+  text-shadow: 10px 10px 0.2rem #62819d;
+}
+.cover-section {
+  background-size: cover;/*背景平铺*/
+  background-repeat: no-repeat;/*背景不重复*/
+  background-position: center;
+  display: table;/*此元素会作为块级表格来显示（类似 <table>）*/
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+ .section-inner {
+  display: table-cell;/*此元素会作为一个表格单元格显示（类似 <td> 和 <th>)*/
+  width: 100%;
+  vertical-align: middle;/*垂直居中*/
+}
+#mobile .description {
+  margin-top: 3rem;
+}
+#mobile .description > p {
+  font-size: 1.5rem;
+}
+.row {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;/*清除左右浮动*/
+}
+#mobile .list {
+  text-align: center;
+  margin: 3rem 0 1.5rem;/*外边距：上边距3rem 左右边距0 下边距1.5rem*/
+}
+#mobile .list i {
+  font-size: 3rem;
+  padding: 2rem;
+}
+#mobile .list h5 {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.col-xs-6,.col-md-3{
+  position: relative;
+  min-height: 1px;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  /*新增的*/
+  float: left;
+  box-sizing: border-box;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-md-3 {
+  float: left;
+  width: 25%;
+}
+

@@ -1,0 +1,110 @@
+html,body,div,span,h1,a,ul,li,nav{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font:inherit;
+    vertical-align: baseline;
+}
+body{
+    line-height: 1em;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+.l-main{
+    width: 530px;
+    margin: 0 auto;
+}
+.memu{
+    width: 250px;
+    margin: 40px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgb(0, 0, 0 , 0.3);
+    border-radius: 5px;
+    float: left;
+}
+.menu_header{
+    background-color: #4b4f55;
+    border-bottom: 1px solid #353A40;
+    border-radius: 5px 5px 0 0; 
+}
+.menu_header-title{
+    color: #f4f4f4;
+    padding: 15px;
+}
+.menu_body{
+    border-radius: 0 0 5px 5px;
+}
+.nav{
+    list-style: none;
+}
+.nav_item{
+    position: relative;
+}
+.nav_item-link{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #8b8e93;
+    display: block;
+    border-bottom: 1px solid #f0f0f0;
+}
+.nav_item-link:hover{
+    color: #f0f0f0;
+}
+.nav_item-link.is-active{
+    background-color: #6e757f;
+    color: white;
+    border-bottom-color: #4b4f55;
+    box-shadow: 0 1px 0 #7a828d inset;
+}
+.nav_item-link.is-active:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    margin-top: -6px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #6e757f;
+}
+.nav_item:last-child .nav_item-link{
+    border-bottom: none;
+}
+.nav_item-icon{
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.badge{
+    font-size: 12px;
+    padding: 2px 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    position: absolute;
+    top:10px;
+    right: 15px;
+}
+.badge-warning{
+    background-color: #ed373f;
+    border-color: #ed373f;
+}
+.fa-flag{
+    color: #ed373f;
+}
+.fa-space-shuttle{
+    color: #508049;
+}
+.fa-archive{
+    color: orange;
+}
+.fa-trash{
+
+}
+.fa-envelope{
+    color: #35b3ff;
+}
