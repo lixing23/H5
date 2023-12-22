@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f7f7f7;
+
+}
+header,.items{
+   margin-bottom: 20px;
+   width: 1250px;
+   height: 400px;
+   padding-left: 20px;
+   margin: 10px auto;
+}
+.items{
+    height: 320px;
+}
+.p{
+    background-color: #2a809b;
+    height: 320px;
+    background-image: linear-gradient(to bottom,#4b6db9 20%,#b2b3ff 80%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    line-height: 30px;
+}
