@@ -1,0 +1,260 @@
+.main{
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    font: inherit;
+    background: url(./images/2.png) repeat 0px 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    transition: all 0.5s;
+}
+.clear{
+    clear: both;
+}
+h1{
+    font: 3em '微软雅黑';
+    color: #3c2f24;
+    text-align: center;
+    margin: 2em 0em 1em 0em;
+}
+.element{
+    width: 60%;
+    margin: 0 auto 7em;
+    padding: 2em;
+    display: flex;
+    flex-flow: row;
+}
+.clear-left{
+    margin: 0 1.5%;
+    flex: 3.3;
+    order: 1;
+}
+.clear-right{
+    margin: 0 1.5%;
+    flex: 3.3;
+    order: 2;
+}
+.clear-last{
+    margin: 0 1.5%;
+    flex: 3.3;
+    order: 3;
+}
+.edit{
+    margin: 0 auto;
+    background: #fff;
+}
+form{
+    padding: 10% 4% 8% 4%;
+}
+form li{
+    list-style: none;
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 1em 0;
+    outline: none;
+    position: relative;
+}
+input[type = "text"]{
+    width: 83%;
+    padding: 1em 0em 1em 3.5em;
+    font-size: 15px;
+    /* stroke-width: 500; */
+    color: #858282;
+    outline: none;
+    background: none;
+    font-weight: 500;
+    border: none;
+}
+.user{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(./images/user.png) no-repeat 0px 0px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    z-index: 9999;
+    padding-right: 5px;
+    border-right: 1px solid #999;
+}
+.lock{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(./images/lock.png) no-repeat 0px 0px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    z-index: 9999;
+    padding-right: 5px;
+    border-right: 1px solid #999;
+}
+.submit input[type = "submit"]{
+    width: 100%;
+    padding: 21px 20px;
+    background-color: #ef8d32;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.submit input[type = "submit"]:hover{
+    background-color: #ee5a32;
+}
+.teddy-bear{
+    text-align: center;
+}
+.teddy-text{
+    background-color: #fff;
+    padding: 1em;
+}
+.teddy-text h4{
+    font-size: 1.2em;
+    color: #ee5a32;
+    margin: 0.5em 0 0;
+}
+.teddy-text img{
+    width: 60%;
+    padding: 8px;
+    border: 3px solid #ee5a32;
+    border-radius: 70px;
+}
+.teddy-follow{
+    background-color: #ef8d32;
+    padding: 0.7em 0;
+}
+.teddy-follow li{
+    display: inline-block;
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+.teddy-follow li h3{
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #fff;
+}
+.teddy-follow li p{
+    font-size: 0.8em;
+    color: #fff;
+}
+.teddy-follow li.flow-h{
+    border-right: 1px solid #fff;
+}
+ul.content{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ef8d32;
+    font-weight: 100;
+}
+li.button a{
+    padding: 23.5px 27px;
+    margin: 0;
+    display: block;
+}
+li.button{
+    list-style: none;
+    text-align: left;
+}
+li.menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #cd5f4a;
+}
+li.menu:hover{
+    background-color: #ee5a32;
+
+}
+li.button a:hover{
+    text-decoration: none;
+}
+li.button a span {
+    margin-right: 22px;
+
+}
+li.button i{
+    display: block;
+    float: right;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: #505771;
+    font-size: 13px;
+    font-style: normal;
+}
+li.menu.info{
+    border-bottom: none;
+}
+a,a:visited{
+    color: #fff;
+}
+.icon{
+    width: 25px;
+    height: 23px;
+    display: inline-block;
+    float: left;
+}
+.icon{
+    background: url(./images/img-sprite.png) no-repeat -1px -2px;
+}
+.stat{
+    background: url(./images/img-sprite.png) no-repeat -30px -4px;
+}
+.msg{
+    background: url(./images/img-sprite.png) no-repeat -62px -2px;
+}
+.signout{
+    background: url(./images/img-sprite.png) no-repeat -93px -2px;
+}
+@media (max-width:1366px){
+    input[type = "text"]{
+        padding: 1em 0 1em 0.7em;
+    }
+}
+@media (max-width:900px){
+    li.button a{
+        padding: 23.5px 16px;
+    }
+    input[type = "text"]{
+        width: 60%;
+    }
+    .teddy-text{
+        font-size: 1em;
+    }
+    li.button a{
+        padding: 22.5px 10px;
+    }
+}
+@media (max-width:640px){
+    .element{
+        margin: 0 auto 2em;
+        flex-flow: column;
+    }
+    .element-left .element-right .element-last{
+        order: 0;
+        margin: 1%;
+    }
+    h1{
+        font-size: 2em ;
+        margin: 1em 0 0.5em,0;
+    }
+    form{
+        padding: 13%;
+    }
+    input[type = "text"]{
+        width: 89%;
+    }
+}
