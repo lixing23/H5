@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>小K网</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="温馨提示">
+	<link href="http://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"
+		media="all">
+	<style type="text/css">
+		a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,mark,menu,nav,nav li,nav ul,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+		article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+		ol,ul{list-style:none;margin:0;padding:0}
+		blockquote,q{quotes:none}
+		blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+		table{border-collapse:collapse;border-spacing:0}
+		a{text-decoration:none}
+		.txt-rt{text-align:right}
+		.txt-lt{text-align:left}
+		.txt-center{text-align:center}
+		.float-rt{float:right}
+		.float-lt{float:left}
+		.clear{clear:both}
+		.pos-relative{position:relative}
+		.pos-absolute{position:absolute}
+		.vertical-base{vertical-align:baseline}
+		.vertical-top{vertical-align:top}
+		nav.vertical ul li{display:block}
+		nav.horizontal ul li{display:inline-block}
+		img{max-width:100%}
+		body{padding:2em 0;margin:0;font-family:Raleway,sans-serif;background:linear-gradient(to left,#ffb310 50%,#3498db 50%)}
+		body a{transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all;text-decoration:none;letter-spacing:1px;font-size:15px;font-weight:600}
+		body a:hover{text-decoration:none}
+		a:hover,body a:focus{text-decoration:none}
+		input[type=button],input[type=submit]{transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all}
+		h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-family:Raleway,sans-serif;font-weight:600;letter-spacing:1px}
+		.clear{clear:both}
+		.row{margin:0;padding:0}
+		ul{margin:0;padding:0}
+		label{margin:0}
+		a:focus,a:hover{text-decoration:none;outline:0}
+		img{width:100%}
+		.error_main{width:100%}
+		h1{font-size:50px;text-align:center;color:#fff;margin-bottom:40px;letter-spacing:5px}
+		h2{font-size:30px;text-transform:capitalize;margin:0;color:#333}
+		p{margin:0;color:#777;letter-spacing:1px;line-height:1.8em;font-size:14px;font-weight:400;margin:1em 0}
+		.error_content span.fa.fa-frown-o{font-size:100px;color:#ffb310}
+		.error_content{padding:5em 7em;background:#fff;width:50%;margin:0 auto}
+		.footer p{text-align:center;color:#eee;letter-spacing:2px;font-size:15px;margin:3em 0 1em}
+		.footer p a{color:#eee}
+		form{width:40%}
+		form input[type=search]{outline:0;border:1px solid #c4c5c5;background:0 0;color:#212121;padding:13px 15px;width:80%;float:left;font-size:13px;letter-spacing:2px;font-family:Raleway,sans-serif}
+		button.btn1{color:#fff;border:none;padding:14px 0;text-align:center;cursor:pointer;text-decoration:none;background:#232323;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all;transition:.5s all;float:right;width:20%}
+		a.b-home{background:#3598db;padding:1em 1.5em;display:inline-block;color:#fff;text-decoration:none;font-size:.9em;margin-top:2em}
+		a.b-home:hover{background:#ffb310}
+		@media screen and (max-width:1440px){.error_content{padding:5em 6em;width:52%}
+		}
+		@media screen and (max-width:1366px){.error_content{padding:4em 6em;width:55%}
+		}
+		@media screen and (max-width:1280px){.error_content{padding:4em 6em;width:60%}
+		.error_content span.fa.fa-frown-o{font-size:90px}
+		}
+		@media screen and (max-width:1080px){.error_content{padding:4em 4em;width:70%}
+		h1{font-size:45px;letter-spacing:3px}
+		}
+		@media screen and (max-width:1024px){.error_content{padding:4em 3em;width:72%}
+		h2{font-size:28px}
+		}
+		@media screen and (max-width:991px){.error_content{padding:4em 3em;width:75%}
+		p{margin:1.5em 0}
+		}
+		@media screen and (max-width:900px){p{letter-spacing:.5px}
+		form{width:50%}
+		}
+		@media screen and (max-width:800px){form{width:60%}
+		}
+		@media screen and (max-width:768px){h1{font-size:40px;letter-spacing:2px;margin-bottom:30px}
+		h2{font-size:26px}
+		.error_content span.fa.fa-frown-o{font-size:80px}
+		}
+		@media screen and (max-width:640px){.footer p{letter-spacing:1px}
+		.error_content{padding:3em 3em}
+		}
+		@media screen and (max-width:480px){form{width:70%}
+		h1{font-size:35px;letter-spacing:2px;margin-bottom:20px}
+		h2{font-size:24px}
+		.error_content span.fa.fa-frown-o{font-size:70px}
+		a.b-home{padding:.8em 1.5em}
+		.footer p{letter-spacing:1px;font-size:14px}
+		}
+		@media screen and (max-width:414px){.error_content{padding:2em 2em}
+		h2{font-size:22px}
+		form{width:80%}
+		}
+		@media screen and (max-width:384px){h1{font-size:30px;margin-bottom:15px}
+		}
+		@media screen and (max-width:375px){p{letter-spacing:0}
+		}
+		@media screen and (max-width:320px){h2{font-size:19px;letter-spacing:0}
+		form{width:100%}
+		}
+
+	</style>
+
+
+</head>
+
+<body>
+	<div class="error_main">
+		<div class="content">
+			<h1>小K网</h1>
+			<div class="error_content">
+				<h2>稿件说明：</h2>
+				<p>1、本稿件由小K网（www.xkwo.com）搜集整理发布，乘着互联网的风飞到了您的眼前。想想是不是还挺浪漫呢～</p>
+				<p>2、小K网一直致力于为大家提供更优质的稿件，站内源码两万多套，并持续更新，涵盖了全网50多个源码论坛的资源。</p>
+				<p>3、赞助成为会员，相当于拥有50多家源码论坛的永久下载权限。希望能够为您在互联网试错的阶段节约更多宝贵时间。</p>
+				<p>4、更多稿件请访问xkwo.com，若本稿件侵犯了您的权益，请及时联系我们予以删除！本程序仅供研究学习使用,切勿商用以及违法使用!</p>
+				<p>根据2002年1月1日《计算机软件保护条例》规定：为了学习和研究软件内含的设计思想和原理，通过安装、显示、传输或者存储软件等方式使用软件的，可以不经软件著作权人许可，不向其支付报酬!鉴于此，希望大家按此说明研究软件!切勿商用,切勿违法使用!</p>
+				<p align="right">小K网</p>
+				<p align="right">2023年01月01日</p>
+				<a class="b-home" href="http://www.xkwo.com/">访问小K网</a>
+			</div>
+			<div class="footer">
+				<p>Copyright © 2023.<a href="http://www.xkwo.com/">小K网</a>.</p>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "jiangnan";
+    src: url("jiangnan.eot"); /* IE9 */
+    src: url("jiangnan.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("jiangnan.woff") format("woff"), /* chrome、firefox */
+    url("jiangnan.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("jiangnan.svg#jiangnan") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

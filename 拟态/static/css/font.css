@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "jianyuanti";
+  src: url("../fonts/jianyuanti.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "jiangnan";
+  src: url("../fonts/jiangnan.eot");
+  src: url("../fonts/jiangnan.eot?#iefix") format("embedded-opentype"), url("../fonts/jiangnan.woff") format("woff"), url("../fonts/jiangnan.ttf") format("truetype"), url("../fonts/jiangnan.svg#jiangnan") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('../fonts/iconfont.ttf') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 0.0833rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-youjiantou:before {
+  content: "\e624";
+}
+.icon-wangzhan:before {
+  content: "\e628";
+}
+.icon-youxiang:before {
+  content: "\e60c";
+}
+.icon-weixin:before {
+  content: "\e637";
+}
+.icon-sousuo:before {
+  content: "\e608";
+}
+.icon-shangyishou:before {
+  content: "\e603";
+}
+.icon-xiayishou:before {
+  content: "\e602";
+}
+.icon-24gf-play:before {
+  content: "\ea82";
+}
+.icon-zhuanfa:before {
+  content: "\e6c9";
+}
+.icon-zanting:before {
+  content: "\e638";
+}
+.icon-hezuo:before {
+  content: "\fba7";
+}
+.icon-bilibili:before {
+  content: "\e609";
+}
+.icon-qq:before {
+  content: "\e60d";
+}
+.icon-a-bianzu38:before {
+  content: "\e644";
+}
