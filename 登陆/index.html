@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <title>欢迎你，请先登陆！</title>
+
+ <script type="text/javascript" src="./static/jsp/lx.js"></script>
+
+ <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+ <!-- <link href="./bootstrap.min.css" rel="stylesheet"> -->
+
+ <link rel="stylesheet" href="../static/css/lx.css">
+ <style>
+    html, body, div, p, form, label, ul, li, dl, dt, dd, ol, img, button, b, em, strong, small, h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      list-style: none;
+      font-style: normal;
+    }
+
+    html {
+    height: 100%;
+    background-image: url(./imgs/604924429bc64ce8b916c762b01485a0.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 100%;
+    }
+
+    body {
+      background-color: transparent;
+    }
+
+    .login {
+      text-align: center;
+    }
+
+    .welcome {
+      font-size: 3em;
+      color: #eee;
+      margin-top: 13%;
+      margin-bottom: 3%;
+    }
+
+    .login-inp {
+      margin: 0 30px 15px 30px;
+      border: 1px solid #fff;
+      border-radius: 25px;
+      display: inline-block;
+      width: 230px;
+    }
+
+    .login-inp:hover {
+      background-color: #eeeeee2b;
+    }
+
+    .login-inp label {
+      text-align: center;
+      display: inline-block;
+      color: #fff;
+    }
+
+    .login-inp:hover {
+      width: 250px;
+    }
+
+    .login-inp input {
+      line-height: 40px;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+
+    .login-inp a {
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 5px;
+
+    }
+
+    a, a.link:hover {
+      color: #666;
+    }
+
+    a, a.link {
+      color: #666;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .login-txt a {
+      color: #fff;
+      padding: 0 5px;
+    }
+
+    .login-txt a:hover {
+      color: #eeeeeeba;
+    }
+
+    .login-txt {
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+ 
+
+</head>
+
+<body>
+    <div class="login">
+        <div class="welcome">Welcom</div>
+        <div class="login-form">
+          <div>
+            <div class="login-inp">
+              <label>登录</label>
+              <input id="uname" type="text" placeholder="" onfocus="onInputFocus(this)" onblur="onInputBlur(this)">
+            </div>
+          </div>
+          <div>
+            <div class="login-inp">
+              <label>密码</label>
+              <input id="upass" type="password" placeholder="" onfocus="onInputFocus(this)" onblur="onInputBlur(this)">
+            </div>
+          </div>
+          <div>
+            <div class="login-inp">
+              <a onclick="fnLogin()">立即登录</a>
+            </div>
+          </div>
+          <div>
+            <div class="login-txt">
+              <a href="#">立即注册</a>|<a href="#">忘记密码？</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 小人 -->
+      <script src="https://l2dwidget.js.org/lib/L2Dwidget.min.js"></script>
+      <script type="text/javascript">
+      
+       L2Dwidget
+      
+      .on('*', (name) => {
+      
+       console.log('%c EVENT ' + '%c -> ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+      
+      })
+      
+      .init({
+      
+       display: {
+      
+      // 居左
+      
+      "position": "left",
+      
+      // 宽度
+      
+      "width": 200,
+      
+      // 高度
+      
+      "height": 400,
+      
+      // 距左右
+      
+      "hOffset": 35,
+      
+      // 距下
+      
+      "vOffset": -20
+      
+      },
+      
+       mobile: {
+      
+      // 移动端，false为关闭
+      
+      "show": true,
+      
+      "scale": 0.5
+      
+      },
+      
+       dialog: {
+      
+      // 开启对话框，false为关闭
+      
+       enable: true,
+      
+       script: {
+      
+      // 每空闲 10 秒钟，显示一条一言
+      
+      'every idle 5s': '$hitokoto$',
+      
+      // 当触摸到角色身体
+      
+      'tap body': '巴嘎！别碰我！',
+      
+      // 当触摸到角色头部
+      
+      'tap face': '人家已经不是小孩子了！'
+      
+      }
+      
+      }
+      
+      });
+      
+      </script>
+</body>
+
+</html>

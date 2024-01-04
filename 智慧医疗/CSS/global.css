@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	font:inherit;
+}
+div,form,img,ul,ol,li,dl,dt,dd,p,tr,td,input,body,strong,span,pre{margin:0; padding:0; border:0; background-repeat:no-repeat;}
+h1,h2,h3,h4,h5,h6,p{ margin:0; padding:0; font-weight:normal;}
+body{font-size:14px; font-family:Arial,'微软雅黑';  float: right; width: 100%; overflow-x: hidden; margin:0px;padding:0px;color:#666;line-height:18px;height:auto;clear:both;background:#ffffff;}
+img{border:0px;}
+ul,li{ list-style:none;}
+em,i{ font-style:normal;}
+a{ text-decoration:none;color:#666;}
+a:hover{ background-repeat:no-repeat;}
+a,area{blr:expression(this.onFocus=this.blur())}
+.del_float{ clear:both; line-height:0; height:0; font-size:0;}
+
+/*通用样式*/
+
+.web{width:1200px;margin:0 auto;}
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content:'微软雅黑';clear: both;height: 0;}
+.clearfix{*zoom:1;}
+input,button,select,textarea{outline:none; border:none;border-radius:0px;font-family:'微软雅黑';}
+
+* html{background:url(about:blank);}
+* html .iefixed { position:absolute;top:expression(eval(document.documentElement.scrollTop - this.offsetParent.offsetTop));}
+
+.fl { float:left;}
+.fr { float:right;}
+strong { font-weight:bold;}
+#newBridge .nb-customer-icon-style .nb-icon-groups{
+	border: 0px !important;
+}
