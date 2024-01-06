@@ -41,6 +41,6 @@ function fnLogin() {
     }
    
     window.alert("登录成功");
-    location.href = "home.html";
+    location.href = "./智慧医疗/medical.html";
    }
    
